@@ -15,3 +15,18 @@ console.log("string:", string);
 var DNA = "GCAT";
 var RNA = DNA.replace('T','U');
 console.log("RNA:", RNA);
+
+//Exercise 4
+
+var animal = "Goat"
+
+//var animal = "AlliGAtor"
+
+if( animal.toLowerCase() === "AlliGAtor"){
+    console.log("small")
+} else if (animal.toLowerCase() === "goat"){
+    console.log("wide")
+}
+else {
+    console.log("wide")
+}
