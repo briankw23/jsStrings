@@ -41,10 +41,9 @@ myDiv.innerHTML =domString;
 //Challenge 5
 
 var str = "IBMWLOVEbmcatsbmw";
-var str2 = str.replace("BMWbmbmw",'');
-
+var str2 = str.replace(/[BMWbmbmw]/g,'');
+console.log(str2);
 //var result = str.replace(/b/gi,'').replace(/m/gi,'').replace(/w/gi,'');
-
-var domresult = <h3>+ result +</h3>;
-
-console.log(res);
+var catStr = "<h1>" + str2 + "</h1>";
+var catElement= document.getElementById("cat-holder");
+catElement.innerHTML = catStr
