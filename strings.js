@@ -37,3 +37,14 @@ var yarn = "the better string"
 var domString = "<h4>" + yarn + "</h4>"
 var myDiv= document.getElementById("yarn-holder")
 myDiv.innerHTML =domString;
+
+//Challenge 5
+
+var str = "IBMWLOVEbmcatsbmw";
+var str2 = str.replace("BMWbmbmw",'');
+
+//var result = str.replace(/b/gi,'').replace(/m/gi,'').replace(/w/gi,'');
+
+var domresult = <h3>+ result +</h3>;
+
+console.log(res);
